@@ -1,0 +1,12 @@
+def calcular_nova_capacidade(capacidade_atual, aumento_percentual):
+    nova_capacidade = capacidade_atual * (1 + aumento_percentual / 100)
+    return nova_capacidade
+
+# Leitura da entrada
+capacidade_atual, aumento_percentual = map(int, input().split())
+
+# Cálculo da nova capacidade
+nova_capacidade = calcular_nova_capacidade(capacidade_atual, aumento_percentual)
+
+# Saída da nova capacidade
+print(int(nova_capacidade))
