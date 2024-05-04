@@ -1,0 +1,19 @@
+import sys
+
+# Lê a quantidade de ativos
+num_ativos = int(sys.stdin.readline())
+
+# Lista para armazenar os ativos
+ativos = []
+
+# Lê os ativos e adiciona à lista
+for _ in range(num_ativos):
+    ativo = sys.stdin.readline().strip()  # Remove espaços em branco extras
+    ativos.append(ativo)
+
+# Ordena os ativos em ordem alfabética
+ativos.sort()
+
+# Imprime os ativos organizados
+for ativo in ativos:
+    print(ativo)
