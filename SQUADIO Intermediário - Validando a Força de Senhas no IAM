@@ -22,7 +22,7 @@ def verificar_forca_senha(senha):
 
     if not (tem_letra_maiuscula and tem_letra_minuscula and tem_numero and tem_caractere_especial):
         # return "A senha deve conter pelo menos uma letra maiuscula (A-Z), uma minuscula (a-z), um numero (0-9) e um caractere especial."
-        # [caiodonat edit]
+        # [yv edit]
         return "Sua senha nao atende aos requisitos de seguranca."
 
     # Verificando se a senha contém sequências comuns
